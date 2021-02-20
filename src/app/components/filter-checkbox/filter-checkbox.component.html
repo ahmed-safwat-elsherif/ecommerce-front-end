@@ -1,0 +1,17 @@
+<div class="py-2">
+    <mat-expansion-panel (opened)="panelOpenState == true"
+        (closed)="panelOpenState = false" [expanded]="true">
+        <mat-expansion-panel-header>
+        <mat-panel-title>
+            Brands
+        </mat-panel-title>
+        </mat-expansion-panel-header>
+        <p class="text-left filter-panel">
+            <mat-checkbox class="example-margin" [(ngModel)]="checked">NIKE</mat-checkbox>
+            <mat-checkbox class="example-margin" [(ngModel)]="checked">ZARA</mat-checkbox>
+            <mat-checkbox class="example-margin" [(ngModel)]="checked">DENIM</mat-checkbox>
+            <mat-checkbox class="example-margin" [(ngModel)]="checked">DENIM</mat-checkbox>
+            <mat-checkbox class="example-margin" [(ngModel)]="checked">DENIM</mat-checkbox>
+        </p>
+    </mat-expansion-panel>
+</div>
